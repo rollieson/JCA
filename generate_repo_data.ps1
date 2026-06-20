@@ -1,0 +1,1 @@
+gh repo list --limit 100 --json name,description,primaryLanguage,url,stargazerCount,visibility,createdAt,updatedAt | Out-File -Encoding utf8 -FilePath "C:\Users\Administrator\Desktop\JCA\my_repos.json"

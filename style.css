@@ -266,6 +266,36 @@ header {
     gap: 2rem;
 }
 
+/* Timeline */
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid var(--primary);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -2.7rem;
+    top: 2.5rem;
+    width: 20px;
+    height: 20px;
+    background: var(--primary);
+    border: 4px solid var(--bg-light);
+    border-radius: 50%;
+}
+
+.timeline-date {
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
 /* Skills */
 .skills-container {
     display: flex;
@@ -288,12 +318,69 @@ header {
     transform: scale(1.1);
 }
 
+.skill-tag-small {
+    display: inline-block;
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--primary);
+    padding: 0.2rem 0.8rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0.2rem;
+}
+
+/* About Grid */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.stat-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.stat-card h3 {
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+
+/* Link Style */
+.btn-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
 /* Footer */
 footer {
     background: var(--text-main);
     color: var(--white);
     padding: 4rem 2rem;
     text-align: center;
+}
+
+.social-links {
+    margin: 2rem 0;
+}
+
+.social-links a {
+    color: var(--white);
+    margin: 0 1rem;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 1;
 }
 
 /* Animations */
@@ -308,7 +395,18 @@ footer {
     transform: translateY(0);
 }
 
+.animate-fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; transform: translateY(0); }
+}
+
 @media (max-width: 768px) {
     .header-content h1 { font-size: 2.5rem; }
+    .about-grid { grid-template-columns: 1fr; }
     .nav-links { display: none; }
 }

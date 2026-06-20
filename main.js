@@ -21,7 +21,6 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('visible');
-            // Once visible, we can stop observing
             observer.unobserve(entry.target);
         }
     });
@@ -46,12 +45,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Typing Effect for Header (Optional enhancement)
+// Typing Effect for Header
 const typedTextSpan = document.querySelector(".typed-text");
 if (typedTextSpan) {
-    const textArray = ["Into Reality", "Into Code", "Into Success"];
-    const typingDelay = 150;
-    const erasingDelay = 100;
+    const textArray = ["Software Solutions", "Microservices", "Full-Stack Apps", "AI Integrations"];
+    const typingDelay = 100;
+    const erasingDelay = 50;
     const newTextDelay = 2000;
     let textArrayIndex = 0;
     let charIndex = 0;
@@ -74,11 +73,11 @@ if (typedTextSpan) {
         } else {
             textArrayIndex++;
             if (textArrayIndex >= textArray.length) textArrayIndex = 0;
-            setTimeout(type, typingDelay + 1100);
+            setTimeout(type, typingDelay + 500);
         }
     }
 
     document.addEventListener("DOMContentLoaded", function() {
-        if (textArray.length) setTimeout(type, newTextDelay + 250);
+        if (textArray.length) setTimeout(type, 1000);
     });
 }

@@ -1,2 +1,8 @@
 .idea/
 *.iml
+*.json
+*.ps1
+Tempdirectory/
+my_repos.json
+repo_dates.json
+git_info.txt

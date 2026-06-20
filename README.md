@@ -1,42 +1,50 @@
-# 🌟 Kervanni Rochester | Creative Portfolio
+# 🌟 Kervanni Rochester | Software Engineer
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-Welcome to my professional repository! This is a fully responsive, modern web experience designed to showcase my skills, projects, and professional identity.
+Professional Software Engineer with a focus on **Microservices Architecture**, **Enterprise Desktop Solutions**, and **AI Integration**. This repository hosts my creative web portfolio and serves as a gateway to my 40+ specialized projects.
 
-## 🚀 Live Preview
-My portfolio is hosted on GitHub Pages:
-> **View it here:** [https://rollieson.github.io/JCA/](https://rollieson.github.io/JCA/)
-
----
-
-## ✨ Key Features
-- **Glassmorphism Design**: Modern, semi-transparent UI elements.
-- **Dynamic Backgrounds**: Animated blobs and gradients for a premium feel.
-- **Scroll Animations**: Smooth entry animations using Intersection Observer API.
-- **Multi-Page Layout**: Dedicated pages for Home, Projects, and Contact.
-- **Lucide Icons**: Clean, high-quality vector icons throughout the site.
+## 🚀 Live Portfolio
+View my modern, interactive resume and project gallery here:
+> **[https://rollieson.github.io/JCA/](https://rollieson.github.io/JCA/)**
 
 ---
 
-## 📂 Project Structure
-| File | Purpose |
-| :--- | :--- |
-| `index.html` | The landing page featuring a professional overview and resume access. |
-| `projects.html` | A curated gallery to display my best work and case studies. |
-| `contact.html` | A dedicated hub for networking and professional inquiries. |
-| `style.css` | The engine behind the design—containing all animations and custom styles. |
-| `main.js` | Interactive elements, scroll handling, and typing effects. |
-| `Résumé.pdf` | The core document available for quick download. |
+## 🛠️ Technical Expertise
+
+- **Backend Ecosystems**: Java (Spring Boot), Spring Cloud, Microservices (Auth, Gateway, User, Messaging).
+- **Desktop Engineering**: C# (.NET/WinUI), C++ (Qt/CMake), Cross-platform application development.
+- **AI & Automation**: Local OpenAI API integration, VM software optimization (PrintWorker).
+- **Full-Stack Web**: React, Node.js, MERN Stack, Firebase, SQL.
+- **Tools & Infrastructure**: Docker, Git/GitHub, Networking Basics, RESTful APIs.
 
 ---
 
-## 🌐 Deployment to GitHub Pages
-1.  **Push** these files to your GitHub repository named `JCA`.
-2.  Navigate to **Settings** > **Pages**.
-3.  Under **Build and deployment**, select `Deploy from a branch`.
-4.  Set **Branch** to `master` (or `main`) and **Folder** to `/ (root)`.
-5.  **Save** and wait 60 seconds. Your portfolio is now live!
+## 📂 Featured Projects
+
+| Project | Category | Technology |
+| :--- | :--- | :--- |
+| **[Auto Parts Marketplace](https://github.com/rollieson/Auto-parts-market-place)** | Enterprise Web | Java, React, SQL |
+| **[PrintWorker](https://github.com/rollieson/PrintWorker)** | Systems Tool | C#, .NET |
+| **[Model4 AI](https://github.com/rollieson/model4)** | AI Integration | C++, CMake, OpenAI |
+| **[Microservices Suite](https://github.com/rollieson/auth-service)** | Backend | Java, Spring Boot, Docker |
+| **[JAF Inventory App](https://github.com/rollieson/JAF-Castor-Oil-Sales-Inventory-App)** | Data Analytics | Java, SQL |
 
 ---
-*Created by Kervanni Rochester.*
+
+## ✨ Portfolio Features
+- **Modern UI**: Built with a "Glassmorphism" design and smooth scroll animations.
+- **Responsive**: Fully optimized for mobile, tablet, and desktop viewing.
+- **Dynamic Content**: Experience timeline and project sections synchronized with real GitHub activity.
+- **Direct Downloads**: Easy access to my full PDF Résumé and Cover Letter.
+
+---
+
+## 🌐 How to Deploy (Personal Note)
+1. **Push Changes**: `git add . && git commit -m "Finalized master portfolio" && git push origin master`
+2. **Enable Pages**: Go to **Settings > Pages** on GitHub.
+3. **Source**: Select the `master` branch and `/ (root)` folder.
+4. **Save**: Your site will be live within 1-2 minutes.
+
+---
+*Developed by Kervanni Rochester.*

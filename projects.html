@@ -26,47 +26,130 @@
         </div>
     </nav>
 
-    <header style="height: 60vh;">
+    <header style="height: 50vh;">
         <div class="header-content animate-fade-in">
-            <h1>My <span>Creative</span> Works</h1>
-            <p>A collection of projects where I've applied my skills to solve real-world problems.</p>
+            <h1>Engineered <span>Solutions</span></h1>
+            <p>A comprehensive look at my 40+ repositories spanning Microservices, AI, and Enterprise Systems.</p>
         </div>
     </header>
 
     <div class="container">
+
+        <!-- Section: Microservices -->
+        <div class="section-header animate-on-scroll">
+            <h2>Microservices & Cloud</h2>
+            <div class="underline"></div>
+        </div>
         <div class="grid">
             <div class="document-card animate-on-scroll card">
-                <div class="project-image" style="height: 200px; background: rgba(99, 102, 241, 0.1); border-radius: 12px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center;">
-                    <i data-lucide="layout" style="width: 48px; height: 48px; color: var(--primary);"></i>
+                <div class="project-header">
+                    <i data-lucide="layers" class="icon-primary"></i>
+                    <span class="visibility-tag">Private</span>
                 </div>
-                <h3>E-Commerce Redesign</h3>
-                <p>Improved user experience and conversion rates for a leading retail platform.</p>
-                <a href="#" class="btn-link">Case Study →</a>
+                <h3>Distributed Ecosystem</h3>
+                <p>Architected a fleet of 10+ Java microservices including <strong>Auth</strong>, <strong>Gateway</strong>, <strong>User</strong>, and <strong>Messaging</strong> services using Spring Boot and Docker.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag-small">Java</span>
+                    <span class="skill-tag-small">Spring Cloud</span>
+                    <span class="skill-tag-small">Docker</span>
+                </div>
+                <a href="https://github.com/rollieson/auth-service" class="btn-link" target="_blank">Explore services →</a>
             </div>
-
             <div class="document-card animate-on-scroll card">
-                <div class="project-image" style="height: 200px; background: rgba(236, 72, 153, 0.1); border-radius: 12px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center;">
-                    <i data-lucide="cpu" style="width: 48px; height: 48px; color: var(--secondary);"></i>
+                <div class="project-header">
+                    <i data-lucide="shield-check" class="icon-primary"></i>
                 </div>
-                <h3>AI Data Analytics</h3>
-                <p>Developed a predictive model to help businesses understand market trends.</p>
-                <a href="#" class="btn-link">View Details →</a>
+                <h3>Backend Auth Service</h3>
+                <p>A reusable authentication microservice implementing secure JWT-based login and user management for enterprise applications.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag-small">Java</span>
+                    <span class="skill-tag-small">Security</span>
+                </div>
+                <a href="https://github.com/rollieson/backend-auth-mircoservice" class="btn-link" target="_blank">View Repo →</a>
             </div>
+        </div>
 
+        <!-- Section: Desktop & AI -->
+        <div class="section-header animate-on-scroll" style="margin-top: 5rem;">
+            <h2>Desktop & AI Integrations</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="grid">
             <div class="document-card animate-on-scroll card">
-                <div class="project-image" style="height: 200px; background: rgba(251, 191, 36, 0.1); border-radius: 12px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center;">
-                    <i data-lucide="smartphone" style="width: 48px; height: 48px; color: #fbbf24;"></i>
+                <div class="project-header">
+                    <i data-lucide="cpu" class="icon-secondary"></i>
                 </div>
-                <h3>Fitness Tracker App</h3>
-                <p>A mobile application focused on wellness and community engagement.</p>
-                <a href="#" class="btn-link">Try Demo →</a>
+                <h3>PrintWorker (VM Tool)</h3>
+                <p>Specialized utility designed to resolve critical VM software issues, optimizing resource allocation and printing workflows.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag-small">C#</span>
+                    <span class="skill-tag-small">.NET</span>
+                </div>
+                <a href="https://github.com/rollieson/PrintWorker" class="btn-link" target="_blank">View Repo →</a>
+            </div>
+            <div class="document-card animate-on-scroll card">
+                <div class="project-header">
+                    <i data-lucide="brain-circuit" class="icon-secondary"></i>
+                </div>
+                <h3>Model4 AI Integration</h3>
+                <p>High-performance application focused on <strong>local OpenAI</strong> integration for offline data processing and intelligence.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag-small">C++</span>
+                    <span class="skill-tag-small">CMake</span>
+                </div>
+                <a href="https://github.com/rollieson/model4" class="btn-link" target="_blank">View Repo →</a>
+            </div>
+            <div class="document-card animate-on-scroll card">
+                <div class="project-header">
+                    <i data-lucide="monitor" class="icon-secondary"></i>
+                </div>
+                <h3>WinUI CarWash System</h3>
+                <p>Full-scale Windows desktop application for managing car wash operations, featuring robust CRUD and hardware sync.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag-small">C#</span>
+                    <span class="skill-tag-small">WinUI</span>
+                </div>
+                <a href="https://github.com/rollieson/WinUI-CarWash-System1" class="btn-link" target="_blank">View Repo →</a>
+            </div>
+        </div>
+
+        <!-- Section: Web & Inventory -->
+        <div class="section-header animate-on-scroll" style="margin-top: 5rem;">
+            <h2>Web & Inventory Systems</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="grid">
+            <div class="document-card animate-on-scroll card">
+                <div class="project-header">
+                    <i data-lucide="database" class="icon-accent"></i>
+                </div>
+                <h3>JAF Sales & Inventory</h3>
+                <p>Custom data analytics platform for tracking castor oil sales, generating critical business intelligence reports.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag-small">Java</span>
+                    <span class="skill-tag-small">SQL</span>
+                </div>
+                <a href="https://github.com/rollieson/JAF-Castor-Oil-Sales-Inventory-App" class="btn-link" target="_blank">View Repo →</a>
+            </div>
+            <div class="document-card animate-on-scroll card">
+                <div class="project-header">
+                    <i data-lucide="shopping-cart" class="icon-accent"></i>
+                </div>
+                <h3>Auto Parts Marketplace</h3>
+                <p>MERN stack application for sourcing auto parts, featuring a real-time catalog and secure checkout flow.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag-small">React</span>
+                    <span class="skill-tag-small">Node.js</span>
+                    <span class="skill-tag-small">MongoDB</span>
+                </div>
+                <a href="https://github.com/rollieson/Auto-parts-market-place" class="btn-link" target="_blank">View Repo →</a>
             </div>
         </div>
     </div>
 
     <footer>
         <div class="footer-content">
-            <p>&copy; 2024 Kervanni Rochester. Build with passion.</p>
+            <p>&copy; 2024 Kervanni Rochester. Focused on scalable excellence.</p>
         </div>
     </footer>
 
