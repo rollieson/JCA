@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | My Portfolio</title>
+    <title>Contact | Kervanni Rochester</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -16,7 +16,7 @@
 
     <nav>
         <div class="nav-content">
-            <a href="index.html" class="logo">Portfolio.</a>
+            <a href="index.html" class="logo">Kervanni.</a>
             <div class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="projects.html">Projects</a>
@@ -35,43 +35,35 @@
 
     <div class="container">
         <div class="grid">
-            <div class="document-card animate-on-scroll">
+            <div class="document-card animate-on-scroll card">
                 <i data-lucide="mail"></i>
                 <h3>Email Me</h3>
                 <p>Send me a direct message for inquiries.</p>
-                <a href="mailto:your.email@example.com" class="btn-link">your.email@example.com</a>
+                <a href="mailto:kervannirochester@gmail.com" class="btn-link">kervannirochester@gmail.com</a>
             </div>
 
-            <div class="document-card animate-on-scroll">
+            <div class="document-card animate-on-scroll card">
                 <i data-lucide="linkedin"></i>
                 <h3>LinkedIn</h3>
                 <p>Connect with me professionally.</p>
-                <a href="https://linkedin.com/in/yourprofile" class="btn-link" target="_blank">View Profile →</a>
+                <a href="https://linkedin.com/in/rollieson" class="btn-link" target="_blank">View Profile →</a>
             </div>
 
-            <div class="document-card animate-on-scroll">
+            <div class="document-card animate-on-scroll card">
                 <i data-lucide="github"></i>
                 <h3>GitHub</h3>
                 <p>Check out my latest code repositories.</p>
-                <a href="https://github.com/yourusername" class="btn-link" target="_blank">Follow Me →</a>
+                <a href="https://github.com/rollieson" class="btn-link" target="_blank">Follow Me →</a>
             </div>
         </div>
     </div>
 
     <footer>
         <div class="footer-content">
-            <p>&copy; 2024 Your Name. Build with passion.</p>
+            <p>&copy; 2024 Kervanni Rochester. Build with passion.</p>
         </div>
     </footer>
 
-    <script>
-        lucide.createIcons();
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) entry.target.classList.add('visible');
-            });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.animate-on-scroll').forEach((el) => observer.observe(el));
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
