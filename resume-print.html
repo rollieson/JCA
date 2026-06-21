@@ -2,110 +2,119 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resume - Kervanni Rochester</title>
+    <title>Executive CV - Kervanni Rochester</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.5; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; }
-        h1 { text-align: center; margin-bottom: 5px; text-transform: uppercase; }
-        .contact { text-align: center; margin-bottom: 20px; font-size: 0.9em; }
-        h2 { border-bottom: 2px solid #333; padding-bottom: 5px; margin-top: 25px; text-transform: uppercase; font-size: 1.1em; }
-        .job { margin-bottom: 15px; }
-        .job-header { display: flex; justify-content: space-between; font-weight: bold; }
-        .date { font-style: italic; }
-        ul { margin-top: 5px; padding-left: 20px; }
-        .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { font-family: 'Inter', Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 850px; margin: 40px auto; padding: 40px; background: white; }
+        .header { text-align: left; border-bottom: 3px solid #0f172a; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { margin: 0; font-size: 2.2rem; font-weight: 800; color: #0f172a; text-transform: uppercase; letter-spacing: -1px; }
+        .contact-info { margin-top: 10px; font-size: 0.95rem; color: #64748b; font-weight: 500; }
+        h2 { font-size: 1.1rem; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 1px; margin-top: 30px; margin-bottom: 15px; border-left: 4px solid #38bdf8; padding-left: 15px; }
+        .job { margin-bottom: 25px; }
+        .job-header { display: flex; justify-content: space-between; align-items: baseline; font-weight: 700; color: #334155; }
+        .company { color: #0ea5e9; font-weight: 600; font-size: 1rem; margin-bottom: 8px; display: block; }
+        .date { font-size: 0.85rem; color: #94a3b8; font-weight: 600; }
+        ul { margin-top: 8px; padding-left: 18px; list-style-type: square; }
+        li { margin-bottom: 6px; font-size: 0.95rem; }
+        .skills-section { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .footer-note { margin-top: 50px; padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 0.85rem; color: #94a3b8; text-align: center; }
         @media print {
-            body { margin: 0; padding: 0; }
+            body { margin: 0; padding: 20px; }
             .no-print { display: none; }
         }
     </style>
 </head>
 <body>
 
-    <div class="no-print" style="text-align: center; margin-bottom: 20px;">
-        <a href="index.html">← Back to Portfolio</a>
+    <div class="no-print" style="text-align: right; margin-bottom: 30px;">
+        <a href="index.html" style="text-decoration: none; color: #0ea5e9; font-weight: 700; font-size: 0.9rem;">← RETURN TO IDENTITY PORTFOLIO</a>
     </div>
 
-    <h1>Kervanni Rochester</h1>
-    <div class="contact">
-        kervannirochester@gmail.com | 876-314-1113 | Kingston, Jamaica
+    <div class="header">
+        <h1>Kervanni Rochester</h1>
+        <div class="contact-info">
+            kervannirochester@gmail.com &nbsp;•&nbsp; 876-314-1113 &nbsp;•&nbsp; Kingston, Jamaica
+        </div>
+    </div>
+
+    <h2>Professional Profile</h2>
+    <p style="font-size: 1rem; color: #475569;">Strategic Computer Systems Engineer with a focus on enterprise-grade infrastructure and automated systems. Expert in orchestrating high-availability environments and delivering end-to-end technical solutions aligned with ITIL frameworks.</p>
+
+    <h2>Core Experience</h2>
+
+    <div class="job">
+        <div class="job-header">
+            <span>Technical Support Engineer I</span>
+            <span class="date">DEC 2025 — PRESENT</span>
+        </div>
+        <span class="company">Innovative Corporate Solutions Limited (ICSL)</span>
+        <ul>
+            <li>Orchestrating technical operations and enterprise system configurations for strategic business partners.</li>
+            <li>Executing complex Root Cause Analysis (RCA) to mitigate OS, network, and application layer failures.</li>
+            <li>Managing the end-to-end incident lifecycle within MS Dynamics 365, maintaining 100% SLA compliance.</li>
+            <li>Architecting identity security protocols via Microsoft Entra ID and M365 Admin Centers.</li>
+            <li>Authoring high-fidelity technical documentation and delivering specialized systems training to enterprise users.</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span>Data Operations Specialist</span>
+            <span class="date">AUG 2025 — OCT 2025</span>
+        </div>
+        <span class="company">Eclipse Personnel & Management Services</span>
+        <ul>
+            <li>Spearheaded critical data recovery initiatives and orchestrated enterprise mobile device management (MaaS365).</li>
+            <li>Streamlined network provider migrations and generated high-level reporting for executive stakeholders.</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span>Technology Support Engineer (Internship)</span>
+            <span class="date">OCT 2024 — JAN 2025</span>
+        </div>
+        <span class="company">NCU University Information System Services</span>
+        <ul>
+            <li>Designed and deployed foundational network infrastructure including Cat6/Fiber connectivity.</li>
+            <li>Managed hardware provisioning and technical ecosystem maintenance for high-density academic environments.</li>
+        </ul>
     </div>
 
     <h2>Education</h2>
     <div class="job">
         <div class="job-header">
             <span>BSc. Computer Systems Engineering</span>
-            <span class="date">2017 - 2023</span>
+            <span class="date">2017 — 2023</span>
         </div>
-        <div>Northern Caribbean University</div>
+        <span class="company">Northern Caribbean University</span>
     </div>
 
-    <h2>Professional Experience</h2>
-
-    <div class="job">
-        <div class="job-header">
-            <span>Technical Support Engineer I</span>
-            <span class="date">Dec 2025 - Present</span>
-        </div>
-        <div>Innovative Corporate Solutions Limited (ICSL)</div>
-        <ul>
-            <li>Work with customers and technology partners to identify system requirements and implement custom configurations.</li>
-            <li>Diagnose and troubleshoot complex issues related to operating systems, applications, and network connectivity using root cause analysis.</li>
-            <li>Manage the full issue resolution lifecycle in MS Dynamics 365, ensuring compliance with Service Level Agreements (SLAs).</li>
-            <li>Utilize Microsoft Admin Centers and Entra ID to manage enterprise user accounts, security profiles, and service identities.</li>
-            <li>Document technical knowledge in the form of manuals and notes to enhance internal support databases and resource sharing.</li>
-            <li>Deliver technical training to users on system functionalities and provide multi-channel support (phone, email, chat).</li>
-            <li>Operate within ITIL service models, adhering to change management philosophies and organizational standard procedures.</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <span>Data Clerk</span>
-            <span class="date">Aug 2025 - Oct 2025</span>
-        </div>
-        <div>Eclipse Personnel & Management Services</div>
-        <ul>
-            <li>Managed the enrollment of CUG devices into MaaS365 and facilitated network provider porting.</li>
-            <li>Provided accurate data recovery, transfer services, and generated detailed reports according to policy.</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <span>Technology Support Engineer (Intern)</span>
-            <span class="date">Oct 2024 - Jan 2025</span>
-        </div>
-        <div>NCU University Information System Services</div>
-        <ul>
-            <li>Installed network infrastructure including Cat5/6 cabling, fiber lines, and trunking.</li>
-            <li>Configured enterprise hardware such as switches, access points, IP phones, and printers to support business operations.</li>
-        </ul>
-    </div>
-
-    <h2>Technical Skills</h2>
-    <div class="skills-grid">
+    <h2>Technical Competencies</h2>
+    <div class="skills-section">
         <div>
-            <strong>Enterprise Systems & Admin:</strong>
+            <strong>Systems & Cloud Architecture:</strong>
             <ul>
-                <li>Microsoft 365 & Entra ID (Azure AD)</li>
-                <li>ITIL Service Models & Change Management</li>
-                <li>MS Dynamics 365 / Ticketing Systems</li>
-                <li>Endpoint & Identity Protection</li>
+                <li>Microsoft Entra ID / M365 Admin</li>
+                <li>ITIL Framework & Change Management</li>
+                <li>Endpoint & Identity Security</li>
+                <li>MaaS365 MDM Orchestration</li>
             </ul>
         </div>
         <div>
-            <strong>Engineering & Infrastructure:</strong>
+            <strong>Software Engineering:</strong>
             <ul>
-                <li>Network Configuration & Troubleshooting</li>
-                <li>Root Cause Analysis (RCA)</li>
-                <li>Hardware/Software Installation & Deployment</li>
-                <li>Technical Documentation & Training</li>
+                <li>Java (Spring Boot) / Microservices</li>
+                <li>C# (.NET) / C++ (Qt)</li>
+                <li>Full-Stack Development (React/Node)</li>
+                <li>Docker & Containerization</li>
             </ul>
         </div>
     </div>
 
-    <h2>References</h2>
-    <p>Professional references are available upon request.</p>
+    <div class="footer-note">
+        Professional references and strategic portfolio deep-dives are available upon formal request.
+    </div>
 
 </body>
 </html>

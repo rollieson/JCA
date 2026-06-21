@@ -1,34 +1,50 @@
-# 🌟 Kervanni Rochester | Software Engineer
+# 🌟 Kervanni Rochester | Computer Systems Engineer
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge" alt="Maintained">
+  <img src="https://img.shields.io/github/languages/count/rollieson/JCA?style=for-the-badge" alt="Languages">
+</p>
 
-Professional Software Engineer with a focus on **Microservices Architecture**, **Enterprise Desktop Solutions**, and **AI Integration**. This repository hosts my interactive web portfolio and a gallery of my specialized software projects.
+Professional Computer Systems Engineer with an emphasis on **Enterprise Infrastructure**, **Microservices Architecture**, and **Full-Stack Ecosystems**. This repository serves as the central hub for my professional identity, featuring a high-fidelity interactive portfolio and deep-dives into 40+ engineering projects.
 
-## 🚀 Live Portfolio
-Explore my interactive resume and technical showcase:
-> **[https://rollieson.github.io/JCA/](https://rollieson.github.io/JCA/)**
-
----
-
-## 🛠️ Technical Expertise
-
-- **Backend Ecosystems**: Java (Spring Boot), Spring Cloud, Microservices (Auth, Gateway, User, Messaging).
-- **Desktop Engineering**: C# (.NET/WinUI), C++ (Qt/CMake), Cross-platform application development.
-- **AI & Automation**: Local OpenAI API integration, VM software optimization (PrintWorker).
-- **Full-Stack Web**: React, Node.js, MERN Stack, Firebase, SQL.
-- **Infrastructure**: Docker, Git/GitHub, RESTful APIs, Networking Fundamentals.
+## 🔗 Global Access
+> **Digital Portfolio & Interactive Experience:** [https://rollieson.github.io/JCA/](https://rollieson.github.io/JCA/)
 
 ---
 
-## 📂 Featured Projects
+## 🏗️ Core Engineering Stack
 
-| Project | Category | Tech Stack |
-| :--- | :--- | :--- |
-| **[Auto Parts Marketplace](https://github.com/rollieson/Auto-parts-market-place)** | Enterprise Web | Java, React, SQL |
-| **[PrintWorker](https://github.com/rollieson/PrintWorker)** | Systems Tool | C#, .NET |
-| **[Model4 AI](https://github.com/rollieson/model4)** | AI Integration | C++, CMake, OpenAI |
-| **[Microservices Suite](https://github.com/rollieson/auth-service)** | Backend | Java, Spring Boot, Docker |
-| **[JAF Inventory App](https://github.com/rollieson/JAF-Castor-Oil-Sales-Inventory-App)** | Data Analytics | Java, SQL |
+| Layer | Technologies |
+| :--- | :--- |
+| **Backend** | Java (Spring Boot/Cloud), C# (.NET/WinUI), C++ (Qt), Python |
+| **Frontend** | React, Node.js, Modern CSS (Glassmorphism), JavaScript (ES6+) |
+| **Infrastructure** | Docker, Entra ID (Azure AD), Microsoft 365 Admin, Networking (Cat5/6/Fiber) |
+| **Specialized** | ITIL Framework, OpenAI API Integration, Root Cause Analysis (RCA) |
 
 ---
-*Developed by Kervanni Rochester.*
+
+## 🚀 Strategic Milestones
+
+### 🛡️ Enterprise Technical Support (ICSL)
+Currently spearheading technical operations at **Innovative Corporate Solutions Limited**, managing full-lifecycle issue resolution and complex system configurations within ITIL frameworks.
+
+### 🌐 Microservices Ecosystem
+Architected and deployed a multi-tenant marketplace backend utilizing a fleet of 10+ interconnected Java services, emphasizing secure authentication and high-availability gateways.
+
+### 🤖 Intelligent Automation
+Integrated local Large Language Models (LLMs) into system utilities to optimize VM resource allocation and predictive troubleshooting workflows.
+
+---
+
+## 📈 Engineering Impact
+- **40+** Public & Private Repositories
+- **100%** SLA Compliance in Enterprise Support Roles
+- **End-to-End** Infrastructure Deployment (Physical & Logic Layers)
+
+---
+
+<p align="center">
+  <i>"Engineered for scalability, designed for impact."</i><br>
+  <b>Kervanni Rochester</b>
+</p>
