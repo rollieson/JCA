@@ -26,7 +26,7 @@ Professional Computer Systems Engineer with an emphasis on **Enterprise Infrastr
 
 ## 🚀 Strategic Milestones
 
-### 🛡️ Enterprise Technical Support (ICSL)
+### 🛡️ Enterprise Technical Support 
 Currently spearheading technical operations at **Innovative Corporate Solutions Limited**, managing full-lifecycle issue resolution and complex system configurations within ITIL frameworks.
 
 ### 🌐 Microservices Ecosystem
